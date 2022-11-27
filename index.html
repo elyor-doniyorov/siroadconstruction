@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"> 
   <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
   <title>Siroad Construction</title>
@@ -319,7 +320,9 @@
   </div>
 </div>
 
-<footer class="container-fluid bg-dark mt-5">
+<div class="container-fluid mt-5" id='map' style='height: 600px;'></div>
+
+<footer class="container-fluid bg-dark">
   <div class="d-flex flex-column flex-md-row justify-content-md-evenly">
     <div class="d-flex flex-column col-12 col-md-4 my-4">
       <a href="#" class="navbar-brand d-flex">
@@ -375,5 +378,18 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+
+  
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZWx5b3JiZWtkb25peW9yb3YiLCJhIjoiY2xhem5uMnppMHU4bjNwb3FtdWVpN3FlbCJ9.dvKr5dmSVIW56PtRIrbK7Q';
+    var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/streets-v11',
+      center: [64.5736, 41.3812],
+      zoom: 5
+    });
+  </script>
+
 </body>
 </html>
