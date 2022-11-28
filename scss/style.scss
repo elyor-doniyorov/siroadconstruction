@@ -9,16 +9,8 @@ font-family: 'Poppins', sans-serif; */
 
 $enable-rfs:                 true;
 
-.logo-title p:first-child {
-  font-family: 'Inter', sans-serif;
-  font-weight: 900;
-}
 
-.logo-title p:nth-child(2) {
-  font-family: 'Inter', sans-serif;
-  font-weight: 800;
-}
-
+// Fonts
 .fontpoppins {
   font-family: 'Poppins', sans-serif;
 }
@@ -31,6 +23,8 @@ $enable-rfs:                 true;
   font-family: 'Inter', sans-serif;
 }
 
+// Colors
+
 .logotitle1c {
   color: #092748;
 }
@@ -42,6 +36,29 @@ $enable-rfs:                 true;
 .black {
   color: #000000;
 }
+ 
+.white {
+  color: #FFFFFF;
+}
+
+.wwdtextc {
+  color: #434f53;
+}
+
+.wwdtitlec {
+  color: #292929;
+}
+
+.wwdtext2c {
+  color: #6c6c6c;
+}
+
+.obbackc {
+  background-color: #092748;
+}
+
+
+// Background images
 
 .showcase {
   background-image: url(../assets/showcase.jpg);
@@ -51,6 +68,11 @@ $enable-rfs:                 true;
   background-position-y: top;
   width: 100%;
   min-height: 600px;
+}
+
+.centered {
+  top: 40%;
+  left: 10%;
 }
 
 .videopr {
@@ -84,7 +106,7 @@ $enable-rfs:                 true;
   background-position-y: top;
   width: 100%;
   height: auto;
-  background-blend-mode: color;
+  background-blend-mode: multiply;
 }
 
 .resproject1 {
@@ -99,3 +121,18 @@ $enable-rfs:                 true;
 .resproject4 {
   background-image: linear-gradient(#337ab7, #337ab7), url(../assets/recproject4.jpg);
 }
+
+
+// icons
+
+.iconad  {
+  max-width: 100%;
+  height: 90px;
+}
+
+// media-query
+// @media only screen and (max-width: 600px) {
+//   #xizmatlar {
+//     color: rgb(185, 228, 41);
+//   }
+// }
