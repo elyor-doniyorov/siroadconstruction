@@ -130,9 +130,9 @@ $enable-rfs:                 true;
   height: 90px;
 }
 
-// media-query
-// @media only screen and (max-width: 600px) {
-//   #xizmatlar {
-//     color: rgb(185, 228, 41);
-//   }
-// }
+//media-query
+@media only screen and (max-width: 600px) {
+  #map {
+    height: 300px;
+  }
+}
