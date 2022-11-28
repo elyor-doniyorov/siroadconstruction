@@ -51,8 +51,8 @@ font-family: 'Poppins', sans-serif; */
   background: linear-gradient(to right,#435e7c, transparent);
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .showcasegreet {
     font-size: 13px;
   }
-}
+} */
