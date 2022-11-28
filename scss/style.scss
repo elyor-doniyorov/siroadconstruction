@@ -1,0 +1,138 @@
+@use 'custom';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800;900&family=Montserrat:wght@500;600;700&family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+$enable-rfs:                 true;
+
+
+// Fonts
+.fontpoppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.fontmontressat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fontinter {
+  font-family: 'Inter', sans-serif;
+}
+
+// Colors
+
+.logotitle1c {
+  color: #092748;
+}
+
+.yellow {
+  color: #fdb900;
+}
+
+.black {
+  color: #000000;
+}
+ 
+.white {
+  color: #FFFFFF;
+}
+
+.wwdtextc {
+  color: #434f53;
+}
+
+.wwdtitlec {
+  color: #292929;
+}
+
+.wwdtext2c {
+  color: #6c6c6c;
+}
+
+.obbackc {
+  background-color: #092748;
+}
+
+
+// Background images
+
+.showcase {
+  background-image: url(../assets/showcase.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
+  width: 100%;
+  min-height: 600px;
+}
+
+.centered {
+  top: 40%;
+  left: 10%;
+}
+
+.videopr {
+  background-image: url(../assets/videopres.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
+  width: 100%;
+  min-height: 300px;
+}
+
+
+.reqcallback {
+  background-image: url(../assets/reqcallback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
+  width: 100%;
+  min-height: 300px;
+}
+
+.resproject1,
+.resproject2,
+.resproject3,
+.resproject4 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
+  width: 100%;
+  height: auto;
+  background-blend-mode: multiply;
+}
+
+.resproject1 {
+  background-image: linear-gradient(#337ab7, #337ab7), url(../assets/recproject1.jpg);
+}
+.resproject2 {
+  background-image: linear-gradient(#337ab7, #337ab7), url(../assets/recproject2.jpg);
+}
+.resproject3 {
+  background-image: linear-gradient(#337ab7, #337ab7), url(../assets/recproject3.jpg);
+}
+.resproject4 {
+  background-image: linear-gradient(#337ab7, #337ab7), url(../assets/recproject4.jpg);
+}
+
+
+// icons
+
+.iconad  {
+  max-width: 100%;
+  height: 90px;
+}
+
+// media-query
+// @media only screen and (max-width: 600px) {
+//   #xizmatlar {
+//     color: rgb(185, 228, 41);
+//   }
+// }
