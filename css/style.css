@@ -10887,4 +10887,10 @@ font-family: 'Poppins', sans-serif; */
   height: 90px;
 }
 
+@media only screen and (max-width: 600px) {
+  #map {
+    height: 300px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
