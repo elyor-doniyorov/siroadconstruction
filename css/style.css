@@ -10774,6 +10774,11 @@ textarea.form-control-lg {
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif; */
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .fontpoppins {
   font-family: "Poppins", sans-serif;
 }
@@ -10891,6 +10896,13 @@ font-family: 'Poppins', sans-serif; */
   #map {
     height: 300px;
   }
+}
+#project-popup1,
+#project-popup2,
+#project-popup3,
+#project-popup4,
+.modal-img1 {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

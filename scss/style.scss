@@ -9,6 +9,10 @@ font-family: 'Poppins', sans-serif; */
 
 $enable-rfs:                 true;
 
+body{
+  margin: 0;
+  padding: 0;
+}
 
 // Fonts
 .fontpoppins {
@@ -135,4 +139,12 @@ $enable-rfs:                 true;
   #map {
     height: 300px;
   }
+}
+
+#project-popup1,
+#project-popup2,
+#project-popup3,
+#project-popup4,
+ .modal-img1 {
+  width: 100%;
 }
