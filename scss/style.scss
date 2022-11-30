@@ -29,6 +29,10 @@ body{
 
 // Colors
 
+.navbar-toggler-icon {
+  outline: none;
+}
+
 .logotitle1c {
   color: #092748;
 }
@@ -135,10 +139,11 @@ body{
 }
 
 //media-query
-@media only screen and (max-width: 600px) {
-  #map {
-    height: 300px;
-  }
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
 
 #project-popup1,

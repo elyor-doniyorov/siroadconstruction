@@ -11,7 +11,7 @@
   <title>Siroad Construction</title>
 </head>
 <body class="container-fluid d-flex flex-column pe-0 ps-0">
-  <nav class="navbar navbar-expand-md bg-light navbar-light text-dark">
+  <nav class="navbar navbar-expand-lg bg-light navbar-light text-dark sticky-top ">
     <div class="container pe-0 ps-0">
       <a href="#" class="navbar-brand d-flex">
         <img class="mx-3 my-2" src="./assets/logo.png" alt="">
@@ -21,8 +21,8 @@
         </div>
       </a>
 
-      <div class="navbar-nav ms-auto d-lg-flex flex-column">
-        <ul class="d-flex justify-content-evenly border-bottom border-secondary mb-1 px-0">
+      <!-- <div class="navbar-nav ms-auto d-lg-flex flex-column"> -->
+        <!-- <ul class="d-flex justify-content-evenly border-bottom border-secondary mb-1 px-0">
           <li class="nav-item list-unstyled">
             <a href="#" class="nav-link my-2 mx-0 px-0 fontpoppins black"><i class="bi bi-envelope-fill yellow mx-2"></i>mail@demolink.org</a>
           </li>
@@ -35,27 +35,21 @@
               <i class="bi bi-instagram m-1"></i>
             </a>
           </li>
-        </ul>
+        </ul> -->
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
           <span class="navbar-toggler-icon"></span>
         </button>
         
         <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav fontmontressat fw-bold">
+          <ul class="navbar-nav ms-auto fontmontressat fw-bold">
             <li class="nav-item">
-              <a href="#loyihalar" class="nav-link m-2 black">Loyihalar</a>
-            </li>
-            <li class="nav-item">
-              <a href="#xizmatlar" class="nav-link m-2 black">Xizmatlar</a>
-            </li>
-            <li class="nav-item">
-              <a href="#aloqa" class="nav-link m-2 black">Aloqa</a>
+              <a href="#boshsahifa" class="nav-link m-2 black active">Bosh sahifa</a>
             </li>
             <li class="nav-item d-flex justify-content-start">
               <div class="dropdown">
-                <a class="btn dropdown-toggle nav-link m-2 black" href="#hammabloklar" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                  Hamma bloklar
+                <a class="btn dropdown-toggle nav-link m-2 black" href="#bizhaqimizda" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  Biz haqimizda
                 </a>
               
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -68,14 +62,26 @@
                 </ul>
               </div>
             </li>
+            <li class="nav-item">
+              <a href="#xizmatlar" class="nav-link m-2 black">Xizmatlar</a>
+            </li>
+            <li class="nav-item">
+              <a href="#loyihalar" class="nav-link m-2 black">Loyihalar</a>
+            </li>
+            <li class="nav-item">
+              <a href="#yangiliklar" class="nav-link m-2 black">Yangiliklar</a>
+            </li>
+            <li class="nav-item">
+              <a href="#aloqa" class="nav-link m-2 black">Aloqa</a>
+            </li>
           </ul>
         </div>
-      </div>
+      <!-- </div> -->
       
     </div>
   </nav>
 
-  <div class="container-fluid showcase position-relative">
+  <div id="boshsahifa" class="container-fluid showcase position-relative">
       <div class="text-white position-absolute centered">
         <p class="h4 fontmontressat">KOMPANIYAMIZGA XUSH KELIBSIZ</p>
         <p></p>
@@ -140,7 +146,7 @@
 
   <div id="bizhaqimizda" class="container my-5">
     <div class="d-flex flex-column flex-md-column flex-lg-row">
-      <img class="col-12 col-lg-6" src="./assets/wrbiggest.jpg" alt="">
+      <img class="col-12 col-lg-6 mb-3 mx-3" src="./assets/wrbiggest.jpg" alt="">
       <div class="col-12 col-lg-6">
         <div class="m-3 fontmontressat">
           <p class="h4 fw-bold">Bizning korxona O`zbekistonda <br> eng yirik hisoblanadi. </p>
