@@ -9,15 +9,15 @@
   <link rel="stylesheet" href="./css/style.css">
   <title>Barcha loyihalar</title>
 </head>
-<body>
+<body class="bg-light">
 
-  <nav class="navbar navbar-expand-lg bg-light navbar-light text-dark sticky-top ">
+  <nav class="navbar navbar-expand-lg bg-light navbar-light text-dark sticky-top shadow">
     <div class="container pe-0 ps-0">
       <a href="#" class="navbar-brand d-flex">
         <img class="mx-3 my-2" src="./assets/logo.png" alt="">
         <div class="text-center m-1 logo-title fw-bold">
-          <p class="logotitle1c fs-2 my-0">SIROAD</p>
-          <p class="yellow fs-6 my-0">CONSTRUCTION</p>
+          <p id="changeInScroll" class="logotitle1c h2 my-0 fw-bold">SIROAD</p>
+          <p class="yellow h6 my-0">CONSTRUCTION</p>
         </div>
       </a>
 
@@ -27,10 +27,10 @@
         
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto fontmontressat fw-bold">
-            <li class="nav-item">
+            <li class="nav-item nv my-2">
               <a href="index.html" class="nav-link m-2 black active">Bosh sahifa</a>
             </li>
-            <li class="nav-item d-flex justify-content-start">
+            <li class="nav-item my-0 mx-2 mx-lg-0 d-flex justify-content-start">
               <div class="dropdown">
                 <a class="btn dropdown-toggle nav-link m-2 black" href="#bizhaqimizda" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                   Biz haqimizda
@@ -39,24 +39,24 @@
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                   <li><a class="dropdown-item" href="index.html#bizhaqimizda">Biz haqimizda</a></li>
                   <li><a class="dropdown-item" href="index.html#jamoamiz">Rahbariyat</a></li>
-                  <li><a class="dropdown-item" href="index.html#standardlar">Standardlar</a></li>
+                  <!-- <li><a class="dropdown-item" href="index.html#standardlar">Standardlar</a></li>
                   <li><a class="dropdown-item" href="index.html#qaytaqongiroq">Qayta qo`ng`iroq</a></li>
-                  <li><a class="dropdown-item" href="index.html#video">Video</a></li>
+                  <li><a class="dropdown-item" href="index.html#video">Video</a></li> -->
                   <li><a class="dropdown-item" href="index.html#vakansiyalar">Vakansiyalar</a></li>
                 </ul>
               </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item nv my-2">
               <a href="index.html#xizmatlar" class="nav-link m-2 black">Xizmatlar</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item nv my-2">
               <a href="index.html#loyihalar" class="nav-link m-2 black">Loyihalar</a>
             </li>
-            <li class="nav-item">
-              <a href="index.html#yangiliklar" class="nav-link m-2 black">Yangiliklar</a>
+            <li class="nav-item nv my-2">
+              <a href="yangiliklar.html" class="nav-link m-2 black">Yangiliklar</a>
             </li>
-            <li class="nav-item">
-              <a href="index.html#aloqa" class="nav-link m-2 black">Aloqa</a>
+            <li class="nav-item nv my-2">
+              <a href="#aloqa" class="nav-link m-2 black">Aloqa</a>
             </li>
           </ul>
         </div>      
@@ -67,98 +67,67 @@
       <p class="h2 fw-bold fontmontressat">Sizning e'tiboringizga so'nggi loyihalarimizni taklif etamiz</p>
     </div>
     <div class="d-flex flex-column flex-md-row my-4">
-      <div class="d-flex flex-column m-3">
-        <div class="resproject1 text-center pt-5 m-3">
+      <div class="d-flex flex-column m-0 m-md-1 m-lg-3">
+        <div class="resproject1 text-center pt-5 my-3 m-md-1 m-lg-3">
           <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project-popup1">
             <i class="bi bi-search yellow fs-2"></i>
           </button>
-          <p class="h3 text-white fw-bold my-3 fontpoppins">Twelve West, Portland</p>
+          <p class="h4 text-white fw-bold my-3 fontpoppins">Twelve West, Portland</p>
           <p class="text-white fs-5 fontpoppins p-2">This luxury resort and senior independent living facility with a fitness center, pool, spa, sauna, hair salon, classroom space...</p>
         </div>
-        <div class="resproject2  text-center pt-5 m-3">
+        <div class="resproject2  text-center pt-5 my-3 m-md-1 m-lg-3">
           <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project-popup2">
             <i class="bi bi-search yellow fs-2"></i>
           </button>
-          <p class="h3 text-white fw-bold my-3 fontpoppins">Long-term Parking, Miami</p>
+          <p class="h4 text-white fw-bold my-3 fontpoppins">Long-term Parking, Miami</p>
           <p class="text-white fs-5 fontpoppins p-2">This luxury resort and senior independent living facility with a fitness center, pool, spa, sauna, hair salon, classroom space...</p>
         </div>
-        <div class="resproject3  text-center pt-5 m-3">
+        <div class="resproject3  text-center pt-5 my-3 m-md-1 m-lg-3">
           <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project-popup3">
             <i class="bi bi-search yellow fs-2"></i>
           </button>
-          <p class="h3 text-white fw-bold my-3 fontpoppins">Mirabella Resort, Miami</p>
+          <p class="h4 text-white fw-bold my-3 fontpoppins">Mirabella Resort, Miami</p>
           <p class="text-white fs-5 fontpoppins p-2">This luxury resort and senior independent living facility with a fitness center, pool, spa, sauna, hair salon, classroom space...</p>
         </div>
-        <div class="resproject4 text-center pt-5 m-3">
+        <div class="resproject4 text-center pt-5 my-3 m-md-1 m-lg-3">
           <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project-popup4">
             <i class="bi bi-search yellow fs-2"></i>
           </button>
-          <p class="h3 text-white fw-bold my-3 fontpoppins">Millenium Tower, Seattle</p>
+          <p class="h4 text-white fw-bold my-3 fontpoppins">Millenium Tower, Seattle</p>
           <p class="text-white fs-5 fontpoppins p-2">This luxury resort and senior independent living facility with a fitness center, pool, spa, sauna, hair salon, classroom space...</p>
         </div>
       </div>
      
-      <div class="d-flex flex-column m-3">
-        <div class="resproject1 text-center pt-5 m-3">
+      <div class="d-flex flex-column m-0 m-md-1 m-lg-3">
+        <div class="resproject1 text-center pt-5 my-3 m-md-1 m-lg-3">
           <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project-popup1">
             <i class="bi bi-search yellow fs-2"></i>
           </button>
-          <p class="h3 text-white fw-bold my-3 fontpoppins">Twelve West, Portland</p>
+          <p class="h4 text-white fw-bold my-3 fontpoppins">Twelve West, Portland</p>
           <p class="text-white fs-5 fontpoppins p-2">This luxury resort and senior independent living facility with a fitness center, pool, spa, sauna, hair salon, classroom space...</p>
         </div>
-        <div class="resproject2  text-center pt-5 m-3">
+        <div class="resproject2  text-center pt-5 my-3 m-md-1 m-lg-3">
           <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project-popup2">
             <i class="bi bi-search yellow fs-2"></i>
           </button>
-          <p class="h3 text-white fw-bold my-3 fontpoppins">Long-term Parking, Miami</p>
+          <p class="h4 text-white fw-bold my-3 fontpoppins">Long-term Parking, Miami</p>
           <p class="text-white fs-5 fontpoppins p-2">This luxury resort and senior independent living facility with a fitness center, pool, spa, sauna, hair salon, classroom space...</p>
         </div>
-        <div class="resproject3  text-center pt-5 m-3">
+        <div class="resproject3  text-center pt-5 my-3 m-md-1 m-lg-3">
           <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project-popup3">
             <i class="bi bi-search yellow fs-2"></i>
           </button>
-          <p class="h3 text-white fw-bold my-3 fontpoppins">Mirabella Resort, Miami</p>
+          <p class="h4 text-white fw-bold my-3 fontpoppins">Mirabella Resort, Miami</p>
           <p class="text-white fs-5 fontpoppins p-2">This luxury resort and senior independent living facility with a fitness center, pool, spa, sauna, hair salon, classroom space...</p>
         </div>
-        <div class="resproject4 text-center pt-5 m-3">
+        <div class="resproject4 text-center pt-5 my-3 m-md-1 m-lg-3">
           <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project-popup4">
             <i class="bi bi-search yellow fs-2"></i>
           </button>
-          <p class="h3 text-white fw-bold my-3 fontpoppins">Millenium Tower, Seattle</p>
+          <p class="h4 text-white fw-bold my-3 fontpoppins">Millenium Tower, Seattle</p>
           <p class="text-white fs-5 fontpoppins p-2">This luxury resort and senior independent living facility with a fitness center, pool, spa, sauna, hair salon, classroom space...</p>
         </div>
-      </div>
-
-      <div class="d-flex flex-column m-3">
-        <div class="resproject1 text-center pt-5 m-3">
-          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project-popup1">
-            <i class="bi bi-search yellow fs-2"></i>
-          </button>
-          <p class="h3 text-white fw-bold my-3 fontpoppins">Twelve West, Portland</p>
-          <p class="text-white fs-5 fontpoppins p-2">This luxury resort and senior independent living facility with a fitness center, pool, spa, sauna, hair salon, classroom space...</p>
-        </div>
-        <div class="resproject2  text-center pt-5 m-3">
-          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project-popup2">
-            <i class="bi bi-search yellow fs-2"></i>
-          </button>
-          <p class="h3 text-white fw-bold my-3 fontpoppins">Long-term Parking, Miami</p>
-          <p class="text-white fs-5 fontpoppins p-2">This luxury resort and senior independent living facility with a fitness center, pool, spa, sauna, hair salon, classroom space...</p>
-        </div>
-        <div class="resproject3  text-center pt-5 m-3">
-          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project-popup3">
-            <i class="bi bi-search yellow fs-2"></i>
-          </button>
-          <p class="h3 text-white fw-bold my-3 fontpoppins">Mirabella Resort, Miami</p>
-          <p class="text-white fs-5 fontpoppins p-2">This luxury resort and senior independent living facility with a fitness center, pool, spa, sauna, hair salon, classroom space...</p>
-        </div>
-        <div class="resproject4 text-center pt-5 m-3">
-          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project-popup4">
-            <i class="bi bi-search yellow fs-2"></i>
-          </button>
-          <p class="h3 text-white fw-bold my-3 fontpoppins">Millenium Tower, Seattle</p>
-          <p class="text-white fs-5 fontpoppins p-2">This luxury resort and senior independent living facility with a fitness center, pool, spa, sauna, hair salon, classroom space...</p>
-        </div>
-      </div>
+      </div>    
     </div>
 
      <!-- Modal -->
@@ -212,14 +181,34 @@
     </div>
   </div>
 
-  <footer class="container-fluid bg-dark">
-    <div class="d-flex flex-column flex-md-row justify-content-md-evenly m-5">
+
+  <div class="container">
+    <nav aria-label="Page navigation">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <span class="page-link">Oldingisi</span>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item active" aria-current="page">
+          <span class="page-link">2</span>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Keyingisi</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+
+  <footer class="bg-dark">
+    <div class="container d-flex flex-column flex-md-row justify-content-md-evenly mx-auto my-5">
       <div class="d-flex flex-column col-12 col-md-4 mb-4 mt-3">
         <a href="#" class="navbar-brand d-flex">
           <img class="mx-3 my-2" src="./assets/logo.png" alt="">
           <div class="text-center m-1  fontinter">
-            <p class="text-white fs-2 my-0">SIROAD</p>
-            <p class="yellow fs-6 my-0">CONSTRUCTION</p>
+            <p class="text-white h2 my-0 fw-bold">SIROAD</p>
+            <p class="yellow h6 my-0">CONSTRUCTION</p>
           </div>
         </a>
   
@@ -256,8 +245,8 @@
         <input class="p-2 col-12 col-md-10" type="text" placeholder="Ism va familiya *">
         <input class="p-2 my-2 col-12 col-md-10" type="email" placeholder="Email kiriting *">
         <textarea class="p-3 mb-2 col-12 col-md-10" name="text" id="#" placeholder="Matn kiriting *" cols="30" rows="5"></textarea>
-        <div class="bg-warning col-12 col-md-10">
-          <a href="#" class="text-decoration-none text-center text-white p-1 fontmontressat"><p class="fw-bold my-auto">Jo`natish</p></a>
+        <div class="btnr btnyellow p-1 col-12 col-md-10">
+          <a href="#" class="text-decoration-none text-center text-white fontmontressat"><p class="fw-bold my-auto">JO`NATISH</p></a>
         </div>
       </div>
   
@@ -267,7 +256,9 @@
     <div class="p-4 text-white text-center fs-6 fontpoppins">Copyright 2022 - Siroad Construction - All Rights Reserved.</div>
   </footer>
 
+  <div onclick="scrollToTop()" class="scrollTop"><i class="bi bi-arrow-up-square-fill h5"></i></div>
 
+  <script src="index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
