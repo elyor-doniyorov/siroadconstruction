@@ -10,72 +10,91 @@
   <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
   <title>Siroad Construction</title>
 </head>
-<body class="container-fluid d-flex flex-column">
-  <nav class="navbar navbar-expand-md bg-light navbar-light text-dark">
-    <div class="container-fluid">
+<body class="container-fluid d-flex flex-column pe-0 ps-0">
+  <nav class="navbar navbar-expand-lg bg-light navbar-light text-dark sticky-top shadow">
+    <div class="container pe-0 ps-0">
       <a href="#" class="navbar-brand d-flex">
         <img class="mx-3 my-2" src="./assets/logo.png" alt="">
         <div class="text-center m-1 logo-title fw-bold">
-          <p class="logotitle1c fs-2 my-0">SIROAD</p>
-          <p class="yellow fs-6 my-0">CONSTRUCTION</p>
+          <p id="changeInScroll" class="logotitle1c h2 my-0 fw-bold">SIROAD</p>
+          <p class="yellow h6 my-0">CONSTRUCTION</p>
         </div>
       </a>
 
-      <div class="navbar-nav ms-auto d-lg-flex flex-column">
-        <ul class="d-flex justify-content-evenly border-bottom border-secondary mb-1 px-0">
-          <li class="nav-item list-unstyled">
-            <a href="#" class="nav-link my-2 mx-0 px-0 fontpoppins black"><i class="bi bi-envelope-fill yellow mx-2"></i>mail@demolink.org</a>
-          </li>
-          <p class="mt-3 mx-2 text-secondary">|</p>
-          <li class="nav-item list-unstyled my-1">
-            <a href="#" class="nav-link d-flex px-0">
-              <i class="bi bi-twitter m-1"></i>
-              <i class="bi bi-facebook m-1"></i>
-              <i class="bi bi-whatsapp m-1"></i>
-              <i class="bi bi-instagram m-1"></i>
-            </a>
-          </li>
-        </ul>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <a class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </a>
         
         <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav fontmontressat fw-bold">
-            <li class="nav-item">
-              <a href="#galareya" class="nav-link m-2 black">Galareya</a>
+          <ul class="navbar-nav ms-auto fontmontressat fw-bold">
+            <li class="nav-item nv my-2">
+              <a href="#boshsahifa" class="nav-link black active">Bosh sahifa</a>
             </li>
-            <li class="nav-item">
-              <a href="#xizmatlar" class="nav-link m-2 black">Xizmatlar</a>
-            </li>
-            <li class="nav-item">
-              <a href="#aloqa" class="nav-link m-2 black">Aloqa</a>
-            </li>
-            <li class="nav-item d-flex justify-content-start">
+            <li class="nav-item my-0 mx-2 mx-lg-0 d-flex justify-content-start">
               <div class="dropdown">
-                <a class="btn dropdown-toggle nav-link m-2 black" href="#hammabloklar" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                  Hamma bloklar
+                <a class="btn dropdown-toggle nav-link black" href="#bizhaqimizda" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  Biz haqimizda
                 </a>
               
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <li><a class="dropdown-item" href="#bizhaqimizda">Biz haqimizda</a></li>
-                  <li><a class="dropdown-item" href="#video">Video</a></li>
-                  <li><a class="dropdown-item" href="#standardlar">Standardlar</a></li>
-                  <li><a class="dropdown-item" href="#qaytaqongiroq">Qayta qo`ng`iroq</a></li>
-                  <li><a class="dropdown-item" href="#jamoamiz">Bizning jamoa</a></li>
+                  <li><a class="dropdown-item" href="haqimizda.html">Biz haqimizda</a></li>
+                  <li><a class="dropdown-item" href="rahbariyat.html">Rahbariyat</a></li>
                   <li><a class="dropdown-item" href="#vakansiyalar">Vakansiyalar</a></li>
                 </ul>
               </div>
             </li>
+            <li class="nav-item nv my-2">
+              <a href="xizmatlar.html" class="nav-link black">Xizmatlar</a>
+            </li>
+            <li class="nav-item nv my-2">
+              <a href="projects.html" class="nav-link black">Loyihalar</a>
+            </li>
+            <li class="nav-item nv my-2">
+              <a href="yangiliklar.html" class="nav-link black">Yangiliklar</a>
+            </li>
+            <li class="nav-item nv my-2">
+              <a href="#aloqa" class="nav-link black">Aloqa</a>
+            </li>
+            <li class="nav-item my-0 mx-2 mx-lg-0 d-flex justify-content-start">
+              <div class="dropdown">
+                <a class="btn dropdown-toggle nav-link black" href="#bizhaqimizda" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="./assets/uzb.png" alt="">
+                </a>
+              
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item d-flex" href="#"><img class="me-2" src="./assets/uzb.png" alt="">o`zbek</a></li>
+                  <li><a class="dropdown-item d-flex" href="#"><img class="me-2" src="./assets/uk.png" alt="">english</a></li>
+                  <li><a class="dropdown-item d-flex" href="#"><img class="me-2" src="./assets/rus.png" alt="">русский</a></li>
+                </ul>
+              </div>
+              <!-- <div class="btn-group dropend">
+                <button type="button" class="btn btn-light nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="./assets/uzb.png" alt="">
+                </button>
+                <ul class="dropdown-menu">
+                
+                  <li><a class="dropdown-item d-flex" href="#"><img class="me-2" src="./assets/uzb.png" alt="">o`zbek</a></li>
+                  <li><a class="dropdown-item d-flex" href="#"><img class="me-2" src="./assets/uk.png" alt="">english</a></li>
+                  <li><a class="dropdown-item d-flex" href="#"><img class="me-2" src="./assets/rus.png" alt="">русский</a></li>
+                </ul>
+              </div> -->
+              <!-- <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <option selected>Til tanlash</option>
+                <option value="1"><a class="dropdown-item d-flex" href="#"><img class="me-2" src="./assets/uzb.png" alt="">o`zbek</a></option>
+                <option value="2"><a class="dropdown-item d-flex" href="#"><img class="me-2" src="./assets/uk.png" alt="">english</a></option>
+                <option value="3"><a class="dropdown-item d-flex" href="#"><img class="me-2" src="./assets/rus.png" alt="">русский</a></option>
+              </select> -->
+            </li>
           </ul>
+
+          
         </div>
-      </div>
+
       
     </div>
   </nav>
 
-  <div class="container-fluid showcase position-relative">
+  <div id="boshsahifa" class="container min-vw-100 showcase position-relative">
       <div class="text-white position-absolute centered">
         <p class="h4 fontmontressat">KOMPANIYAMIZGA XUSH KELIBSIZ</p>
         <p></p>
@@ -89,10 +108,10 @@
   <div id="xizmatlar" class="container my-5">
     <div class="d-flex flex-column flex-md-row">
       <div class="col-lg-5 my-auto fontmontressat border-end border-warning p-3">
-        <p class="h3 text-end fw-bold">Biz nima qilamiz?</p>
-        <p class="h3 text-end fw-bold">Eksklyuziv Xizmatlar</p>
+        <p class="h3 text-end fw-bold">Biz nima qilamiz? <br>Eksklyuziv Xizmatlar</p>
+        <!-- <p class="h3 text-end fw-bold">Eksklyuziv Xizmatlar</p> -->
       </div>
-        <p class="col-lg-7 fontpoppins my-auto p-3">
+        <p class="col-lg-7 fontpoppins text- my-auto p-3">
           Bizning yo'l qurilish xizmatlari sizga kutilayotgan yuklar va buzilish mexanizmlari bilan bog'liq holda yo'l materiallarining xatti-harakatlarini tushunishga yordam beradi.
         </p>
     </div>
@@ -138,28 +157,10 @@
     </div>
   </div>
 
-  <div id="bizhaqimizda" class="container my-5">
-    <div class="d-flex flex-column flex-md-column flex-lg-row">
-      <img class="col-12 col-lg-6" src="./assets/wrbiggest.jpg" alt="">
-      <div class="col-12 col-lg-6">
-        <div class="mx-5 mt-3 fontmontressat">
-          <p class="h4 fw-bold">Bizning korxona O`zbekistonda <br> eng yirik hisoblanadi. </p>
-        </div>
-        <p class="m-5 fs-5 fontpoppins">Biz qiziqarli kompaniyalarga uzoq muddatli va o'zaro manfaatli munosabatlar orqali sanoat mahsulotlari va xizmatlarini yaratish va yaxshilashga yordam beramiz.</p>
-        <div class="d-flex justify-content-evenly m-3">
-          <img class="col-3" src="./assets/biggest1.png" alt="">
-          <img class="col-3" src="./assets/biggest2.png" alt="">
-          <img class="col-3" src="./assets/biggest3.png" alt="">
-          <img class="col-3" src="./assets/biggest4.png" alt="">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="video" class="container-fluid videopr my-5">
+  <div id="video" class="container min-vw-100 videopr my-5">
     <div class="d-flex flex-column flex-md-row justify-content-md-evenly justify-content-lg-evenly my-5 py-5">
       <div class="d-flex flex-column">
-        <div class="row1 d-flex flex-column flex-md-row">
+        <div class="row1 d-flex flex-column flex-md-row justify-content-md-evenly">
           <div class="projectsnum d-flex mx-auto mx-md-3 mx-lg-4">
             <span class="h1 yellow fontmontressat">345</span>
             <p class="fs-6 mx-2 p-2 text-white fw-bold fontpoppins">LOYIHALAR</p>
@@ -169,7 +170,7 @@
             <p class="fs-6 mx-2 p-2 text-white fw-bold fontpoppins">ISH TAJRIBASI</p>
           </div>
         </div>
-        <div class="row2 d-flex flex-column flex-md-row">
+        <div class="row2 d-flex flex-column flex-md-row justify-content-md-evenly">
           <div class="projectsnum d-flex mx-auto mx-md-3 mx-lg-4">
             <span class="h1 yellow fontmontressat">521</span>
             <p class="fs-6 mx-2 p-2 text-white fw-bold fontpoppins">MALAKALI XODIMLAR</p>
@@ -190,10 +191,10 @@
 
   <div id="standardlar" class="container my-5 d-flex flex-column flex-md-column flex-lg-row">
     <div class="d-flex flex-column col-12 col-md-12 col-lg-6">
-      <p class="h2 m-2 p-2 fontmontressat fw-bold">Professional standartlar</p>
-      <p class="fs-5 m-2 p-2 fontpoppins">Siroad Construction ko'p tarmoqli qurilish kompaniyasi bo'lib, u o'z sohalarida tajribali odamlardan iborat jamoalardan tashkil topgan. Barcha O`zbekiston bo'ylab loyihalarni loyihalash, qurish, tashish, ishlatish va saqlash uchun ishlaydi. Ammo biz loyihalar beton va po'latdan ko'proq narsa ekanligiga ishonamiz.
+      <p class="h2 m-2 p-1 fontmontressat fw-bold">Professional standartlar</p>
+      <p class="fs-6 m-2 p-1 fontpoppins">Siroad Construction ko'p tarmoqli qurilish kompaniyasi bo'lib, u o'z sohalarida tajribali odamlardan iborat jamoalardan tashkil topgan. Barcha O`zbekiston bo'ylab loyihalarni loyihalash, qurish, tashish, ishlatish va saqlash uchun ishlaydi. Ammo biz loyihalar beton va po'latdan ko'proq narsa ekanligiga ishonamiz.
       </p>
-      <ul class="row flex-column flex-md-row my-4 py-3 fontpoppins">
+      <ul class="row flex-column flex-md-row my-4 mx-0 px-0 py-3 fontpoppins">
         <li class="col list-unstyled">
           <p><i class="bi bi-chevron-right me-3 yellow"></i>YO`L QURILISH</p>
           <p><i class="bi bi-chevron-right me-3 yellow"></i>SERTIFIKATLANGAN MATERIALLAR</p>
@@ -209,105 +210,151 @@
     <img class="col-12 col-md-12 col-lg-6" src="./assets/ps.jpg" alt="">
   </div>
 
-  <div id="qaytaqongiroq" class="container-fluid reqcallback my-5">
-    <div class="justify-content-center text-center mt-3 pt-4">
-      <p class="h2 text-white my-3 fontmontressat fw-bold">G`oyalarni omadli loyihalarga aylantirish - bizning maqsadimiz</p>
-      <button type="button" class="btn btn-warning text-white my-3 fontmontressat"><p class="fs-6 fw-bold px-4 py-2 my-auto">SIZGA QAYTA BOG`LANAMIZ</p></button>
-    </div>
-  </div>
-
-  <div id="jamoamiz" class="container my-5">
-    <div class="col-8 my-3 mx-auto text-center">
-      <p class="h2 fontmontressat fw-bold">Bizning Katta Jamoamiz</p>
-      <p class="fs-5 fontpoppins">Bizning iqtidorli, malakali va do'stona jamoamiz bilan tanishing! Bular bizning barcha loyihalarimizni yaratadigan odamlardir. Biz birgalikda bitta muhim va muhim ishni bajaramiz - dizayn, qurilish va odamlar uchun qurilish.</p>
-    </div>
-
-    <div class="d-flex flex-column flex-md-row my-3">
-      <div class="card m-3">
-        <img src="./assets/community1.jpg" class="card-img-top" alt="...">
-        <div class="card-body text-center obbackc">
-          <h5 class="card-title text-white fs-4">Steven Jackson</h5>
-          <p class="card-text yellow fs-5">Owner</p>
-        </div>
+  <div id="qaytaqongiroq" class="container min-vw-100 reqcallback my-5">
+    <div class="text-center py-5">
+      <p class="h3 text-white fontmontressat fw-bold my-5">G`oyalarni omadli loyihalarga aylantirish - bizning maqsadimiz</p>
+      <div class="btnr btnyellow p-1 col-12 col-md-4 mx-auto">
+        <a class="text-decoration-none fontmontressat text-center text-white fw-bold" href="#aloqa">QAYTA QO`NG`IROQ</a>
       </div>
-      <div class="card m-3">
-        <img src="./assets/community2.jpg" class="card-img-top" alt="...">
-        <div class="card-body text-center obbackc">
-          <h5 class="card-title text-white fs-4 fontmontressat">Den Ramos</h5>
-          <p class="card-text yellow fs-5">Worker</p>
-        </div>
-      </div>
-      <div class="card m-3">
-        <img src="./assets/community3.jpg" class="card-img-top" alt="...">
-        <div class="card-body text-center obbackc">
-          <h5 class="card-title text-white fs-4 fontmontressat">Ann Jones</h5>
-          <p class="card-text yellow fs-5">Manager</p>
-        </div>
-      </div>
-      <div class="card m-3">
-        <img src="./assets/community4.jpg" class="card-img-top" alt="...">
-        <div class="card-body text-center obbackc">
-          <h5 class="card-title text-white fs-4 fontmontressat">Steve Donavan</h5>
-          <p class="card-text yellow fs-5">Owner</p>
-        </div>
-      </div>
-      
     </div>
   </div>
 
 
-  <div id="galareya" class="container-fluid my-5">
+
+  <div id="bizhaqimizda" class="container my-5">
+    <div class="d-flex flex-column flex-md-column flex-lg-row">
+      <img class="col-12 col-lg-6 mb-3 m-md-3 m-2" src="./assets/wrbiggest.jpg" alt="">
+      <div class="col-12 col-lg-6">
+        <div class="m-md-3 m-2 fontmontressat">
+          <p class="h4 fw-bold">Bizning korxona O`zbekistonda <br> eng yirik hisoblanadi. </p>
+        </div>
+        <p class="m-md-3 m-2 fs-5 fontpoppins">Biz qiziqarli kompaniyalarga uzoq muddatli va o'zaro manfaatli munosabatlar orqali sanoat mahsulotlari va xizmatlarini yaratish va yaxshilashga yordam beramiz.</p>
+        <p class="m-md-3 m-2 fs-5 fontpoppins">Biz qiziqarli kompaniyalarga uzoq muddatli va o'zaro manfaatli munosabatlar orqali sanoat mahsulotlari va xizmatlarini yaratish va yaxshilashga yordam beramiz.</p>
+        <div class="btnr btnyellow p-1 col-12 col-md-4 m-md-3 m-1">
+          <a href="#" class="text-decoration-none text-center text-white fontmontressat"><p class="fw-bold m-auto">BATAFSIL</p></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+  <div id="loyihalar" class="container min-vw-100 my-5">
     <div class="my-3 mx-auto text-center">
       <p class="h2 fw-bold fontmontressat">Sizning e'tiboringizga so'nggi loyihalarimizni taklif etamiz</p>
     </div>
     <div class="d-flex flex-column flex-md-row my-4">
       <div class="resproject1 text-center pt-5">
-        <i class="bi bi-search yellow fs-2"></i>
-        <p class="h3 text-white fw-bold my-3 fontpoppins">Twelve West, Portland</p>
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project-popup1">
+          <i class="bi bi-search yellow fs-2"></i>
+        </button>
+        <p class="h4 text-white fw-bold my-3 fontpoppins">Twelve West, Portland</p>
         <p class="text-white fs-5 fontpoppins">This luxury resort and senior independent living facility with a fitness center, pool, spa, sauna, hair salon, classroom space...</p>
       </div>
       <div class="resproject2  text-center pt-5">
-        <i class="bi bi-search yellow fs-2"></i>
-        <p class="h3 text-white fw-bold my-3 fontpoppins">Long-term Parking, Miami</p>
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project-popup2">
+          <i class="bi bi-search yellow fs-2"></i>
+        </button>
+        <p class="h4 text-white fw-bold my-3 fontpoppins">Long-term Parking, Miami</p>
         <p class="text-white fs-5 fontpoppins">This luxury resort and senior independent living facility with a fitness center, pool, spa, sauna, hair salon, classroom space...</p>
       </div>
       <div class="resproject3  text-center pt-5">
-        <i class="bi bi-search yellow fs-2"></i>
-        <p class="h3 text-white fw-bold my-3 fontpoppins">Mirabella Resort, Miami</p>
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project-popup3">
+          <i class="bi bi-search yellow fs-2"></i>
+        </button>
+        <p class="h4 text-white fw-bold my-3 fontpoppins">Mirabella Resort, Miami</p>
         <p class="text-white fs-5 fontpoppins">This luxury resort and senior independent living facility with a fitness center, pool, spa, sauna, hair salon, classroom space...</p>
       </div>
       <div class="resproject4 text-center pt-5">
-        <i class="bi bi-search yellow fs-2"></i>
-        <p class="h3 text-white fw-bold my-3 fontpoppins">Millenium Tower, Seattle</p>
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#project-popup4">
+          <i class="bi bi-search yellow fs-2"></i>
+        </button>
+        <p class="h4 text-white fw-bold my-3 fontpoppins">Millenium Tower, Seattle</p>
         <p class="text-white fs-5 fontpoppins">This luxury resort and senior independent living facility with a fitness center, pool, spa, sauna, hair salon, classroom space...</p>
       </div>
-      
-      
     </div>
+    <div class="btnr p-1 btnyellow text-center col-12 col-md-4 col-lg-3">
+      <a class="text-decoration-none fontmontressat text-white fw-bold" href="projects.html">BARCHA LOYIHALAR</a>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="project-popup1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="./assets/recproject1.jpg" class="modal-img1" alt="Modal-Image1">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="project-popup2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="./assets/recproject2.jpg" class="modal-img1" alt="Modal-Image1">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="project-popup3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="./assets/recproject3.jpg" class="modal-img1" alt="Modal-Image1">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="project-popup4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="./assets/recproject4.jpg" class="modal-img1" alt="Modal-Image1">
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <div id="vakansiyalar" class="container my-5 d-flex flex-column flex-lg-row">
-    <img class="col-12 col-lg-6" src="./assets/openpositions.jpg" alt="">
-    <div class="d-flex flex-column flex-md-row flex-lg-column mx-3 col-12 col-lg-6">
+    <img class="col-12 col-lg-6 m-md-3 m-2" src="./assets/openpositions.jpg" alt="">
+    <div class="d-flex flex-column flex-md-row flex-lg-column col-12 col-lg-6 m-md-3 m-2">
       <div class="d-flex flex-column col-12 col-md-7 col-lg-12">
-        <p class="h2 m-3 fontmontressat fw-bold">Bo`sh Vakansiyalar</p>
-        <p class="fs-5 m-2 p-2 fontpoppins">Biz tadqiqot va konsalting sohasida intilish va gullab-yashnamoqchi bo'lgan shaxslar uchun ularning professional rivojlanishiga e'tibor qaratgan holda ajoyib imkoniyatlarni taklif qilamiz.
+        <p class="h4 m-md-1 mt-3 m-2 fontmontressat fw-bold">Bo`sh Vakansiyalar</p>
+        <p class="fs-5 m-md-1 m-2 mt-0 fontpoppins">Biz tadqiqot va konsalting sohasida intilish va gullab-yashnamoqchi bo'lgan shaxslar uchun ularning professional rivojlanishiga e'tibor qaratgan holda ajoyib imkoniyatlarni taklif qilamiz.
       </div>
       
       </p>
-      <ul class="row d-flex flex-column col-12 col-md-5 col-lg-12 my-3 mx-0 py-3 px-0">
+      <ul class="row d-flex flex-column col-12 col-md-5 col-lg-12 my-2 mx-0 py-2 px-0">
         <li class="col list-unstyled fontpoppins">
-          <p><i class="bi bi-chevron-right me-3 yellow"></i>IT dasturchilar</p>
-          <p><i class="bi bi-chevron-right me-3 yellow"></i>Biznes dastur boshqaruvchi</p>
-          <p><i class="bi bi-chevron-right me-3 yellow"></i>Biznes aqliy professionallari</p>
-          <p><i class="bi bi-chevron-right me-3 yellow"></i>Yo`l ishchilari</p>
+          <p><i class="bi bi-chevron-right me-md-3 yellow"></i>IT dasturchilar</p>
+          <p><i class="bi bi-chevron-right me-md-3 yellow"></i>Biznes dastur boshqaruvchi</p>
+          <p><i class="bi bi-chevron-right me-md-3 yellow"></i>Biznes aqliy professionallari</p>
+          <p><i class="bi bi-chevron-right me-md-3 yellow"></i>Yo`l ishchilari</p>
         </li>
-        <button type="button" class="btn btn-warning text-white my-3 w-100 w-md-50 fontmontressat"><p class="h6 fw-bold px-3 py-2 my-auto">BIZGA BOG`LANING</p></button>
+        <div class="btnr btnyellow p-1 col-12 col-md-10 col-lg-6 m-md-3 m-1">
+          <a href="#" class="text-decoration-none text-center text-white fontmontressat"><p class="fw-bold  my-auto">BIZGA BOG`LANING</p></a>
+        </div>
+        
       </ul>
     </div>
   </div>
 
-<div id="aloqa" class="container my-5 d-flex flex-column flex-md-row justify-content-around">
+<!-- <div id="aloqa" class="container my-5 d-flex flex-column flex-md-row justify-content-around">
   <div class="d-flex">
     <img class="m-2 iconad" src="./assets/address1.png" alt="">
     <div class="d-flex flex-column m-2">
@@ -332,24 +379,24 @@
       <p class="fontpoppins">(123)456 7891</p>
     </div>
   </div>
-</div>
+</div> -->
 
-<div class="container-fluid mt-5" id='map' style='height: 600px;'></div>
+<div class="container-fluid mt-5" id='map' style='height: 450px;'></div>
 
-<footer class="container-fluid bg-dark">
-  <div class="d-flex flex-column flex-md-row justify-content-md-evenly m-5">
-    <div class="d-flex flex-column col-12 col-md-4 mb-4">
+<footer class="bg-dark">
+  <div class="container d-flex flex-column flex-md-row justify-content-md-evenly mx-auto my-5">
+    <div class="d-flex flex-column col-12 col-md-4 mb-4 mt-3">
       <a href="#" class="navbar-brand d-flex">
         <img class="mx-3 my-2" src="./assets/logo.png" alt="">
-        <div class="text-center m-1  fontinter">
-          <p class="text-white fs-2 my-0">SIROAD</p>
-          <p class="yellow fs-6 my-0">CONSTRUCTION</p>
+        <div class="text-center m-1 fontinter fw-bold">
+          <p class="text-white h2 my-0">SIROAD</p>
+          <p class="yellow h6 my-0">CONSTRUCTION</p>
         </div>
       </a>
 
-      <p class="my-3 text-white fontpoppins">Biz butun O`zbekistondagi uylar, korxonalar va davlat sektori tashkilotlariga moslashtirilgan xavfsizlik yechimlarini yetkazib beruvchi jahon darajasidagi kompaniyamiz.</p>
+      <p class="my-3 text-white fontpoppins px-2">Biz butun O`zbekistondagi uylar, korxonalar va davlat sektori tashkilotlariga moslashtirilgan xavfsizlik yechimlarini yetkazib beruvchi jahon darajasidagi kompaniyamiz.</p>
 
-      <div class="list-unstyled my-1 mx-3">
+      <div class="list-unstyled my-1">
         <a href="#" class=" d-flex px-0 text-white">
           <i class="bi bi-twitter  m-2"></i>
           <i class="bi bi-facebook m-2"></i>
@@ -371,40 +418,34 @@
       </div>
       <div class="d-flex my-2">
         <i class="bi bi-envelope-fill  yellow align-middle"></i>
-        <a href="#" class="mx-2 text-white fontpoppins">mail@demolink.org</a>
+        <a href="#" class="mx-2 text-white fontpoppins text-decoration-none">mail@demolink.org</a>
       </div>
     </div>
 
-    <div class="d-flex flex-column col-12 col-md-4 text-white my-4">
-      <p class="h3 fontpoppins mb-4">Obuna bo`ling</p>
-      <input class="p-3 w-75" type="text" placeholder="Ism va familiya *">
-      <input class="p-3 w-75 my-3" type="text" placeholder="Email kiriting *">
-      <button class="w-50 p-3 btn btn-warning text-white fs-6 fw-bold fontmontressat" type="button">Obuna bo`lish</button>
+    <div id="aloqa" class="d-flex flex-column col-12 col-md-4 text-white my-4">
+      <p class="h3 fontpoppins mb-4">Murojaat qiling</p>
+      <input class="p-2 col-12 col-md-10" type="text" placeholder="Ism va familiya *">
+      <input class="p-2 my-2 col-12 col-md-10" type="email" placeholder="Email kiriting *">
+      <textarea class="p-3 mb-2 col-12 col-md-10" name="text" id="#" placeholder="Matn kiriting *" cols="30" rows="5"></textarea>
+      <div class="btnr btnyellow p-1 col-12 col-md-10">
+        <a href="#" class="text-decoration-none text-center text-white fontmontressat"><p class="fw-bold my-auto">JO`NATISH</p></a>
+      </div>
     </div>
 
   </div>
 
   <hr class="text-secondary">
-  <div class="p-4 text-white fs-5 fontpoppins">Copyright 2022 - Siroad Construction - All Rights Reserved.</div>
+  <div class="p-4 text-white text-center fs-6 fontpoppins">Copyright 2022 - Siroad Construction - All Rights Reserved.</div>
 </footer>
 
 
-
+  <div onclick="scrollToTop()" class="scrollTop"><i class="bi bi-arrow-up-square-fill h5"></i></div>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
 
-  
-  <script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoiZWx5b3JiZWtkb25peW9yb3YiLCJhIjoiY2xhem5uMnppMHU4bjNwb3FtdWVpN3FlbCJ9.dvKr5dmSVIW56PtRIrbK7Q';
-    var map = new mapboxgl.Map({
-      container: 'map',
-      style: 'mapbox://styles/mapbox/streets-v11',
-      center: [68.7811, 40.4915],
-      zoom: 15
-    });
-  </script>
+  <script src="index.js"></script>
 
 </body>
 </html>
